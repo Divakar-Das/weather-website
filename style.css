@@ -169,3 +169,109 @@ button:active {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: whitesmoke;
 }
+
+/* For tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .citydisplay {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .temp_minmax {
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tempdisp {
+    font-size: 4.5rem;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .weatheremoji {
+    font-size: 7rem;
+    width: 100%;
+  }
+
+  .descdisplay {
+    font-size: 1.6rem;
+  }
+
+  .first {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+  .citydisplay {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .temp_minmax {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .tempdisp {
+    font-size: 3.5rem;
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .weatheremoji {
+    font-size: 5.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .disphumidity,
+  .degreedisplay,
+  .speeddisplay {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-left: 0;
+    padding: 4px 0;
+  }
+
+  .descdisplay {
+    font-size: 1.4rem;
+    height: auto;
+  }
+
+  .first {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    padding: 10px;
+    border-radius: 12px;
+  }
+
+  .heading {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputdisplay {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+
+  button[type="submit"] {
+    width: 80%;
+    margin: 10px auto 0;
+  }
+}

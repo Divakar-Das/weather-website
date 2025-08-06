@@ -57,7 +57,7 @@ function dispweatherinfo(data) {
     disphumidity.textContent = `Humidity:${humidity}`;
     degree.textContent = `deg:${deg}`;
     spd.textContent = `speed:${speed.toFixed(1)}`;
-    temp_minmax.textContent = `${((temp_min - 273.15) * (9 / 5) + 32).toFixed(0)}*  ${((temp_max - 273.15) * (9 / 5) + 32).toFixed(0)}*`;
+    temp_minmax.textContent = ` ${((temp_min - 273.15) * (9 / 5) + 32).toFixed(0)}*  ${((temp_max - 273.15) * (9 / 5) + 32).toFixed(0)}*`;
     countrydisplay.textContent = `${country}`;
     presuredisplay.textContent = `pressure:${pressure}`;
     weatheremoji.textContent = getweatheremoji(id);
